@@ -10,3 +10,14 @@ I have to say, I've never found an emulator that does this. I hate to phrase it 
 So, this is why I am publishing this emulator, ready to run.
 
 Thanks to reenigne at https://github.com/reenigne/reenigne for his great work.
+
+Emulator specs:
+- Double floppy 360KB, can also mount 720KB but cannot be formatted
+- Speaker sound
+- Tandy audio
+- Simple CGA and a full specs CGA to run AREA5150.
+- XTIDE support for card version 1, can handle 2 HDDs
+- Middle mouse button activate menu for floppy disk operations
+- Joystick support
+- Config.ini for configuration
+- Experimental floppy disk sounds

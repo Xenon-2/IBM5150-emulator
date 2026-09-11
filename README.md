@@ -1,5 +1,12 @@
 # IBM5150-emulator
 A time-accurate and cycle-accurate 5150 Emulator
+! please notice that only the x86 version has:
+- data folder
+- config.ini
+- bin files
+- img files
+- font files
+! Please copy them to you folder.
 
 ![screenshot](mips.com.png)
 

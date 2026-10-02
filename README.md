@@ -14,8 +14,8 @@ Connection will be at 2Mbs with hardware flow control via FT232RL
 Added serial connection for FT232RL connected to UART3 and also connect pin cts of FT232RL  to Arduino mega pin A2.
 
 Config.ini has changed, you will find it in the distro.
-
-
+![screenshot](usb_floppies.png)
+![screenshot](hercules.png)
 version pre-release
 
 ! please notice that only the x86 version has:

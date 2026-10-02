@@ -1,6 +1,23 @@
 # IBM5150-emulator
 A time-accurate and cycle-accurate 5150 Emulator
 
+version release 1.1
+
+-added support for Hercules graphic card ( still not perfect in graphic mode )
+
+-added support for Usb floppy disk, can be configured as A: or B:, only 720kb( 1.44MB drive can be used) supported: write, read and format operations.
+
+-added support for floppy disk connected via Arduino mega, in the release you can find the .hex file to program the microcontroller.
+ Can be configured as A: or B:, 5.25" 360KB and 3.5" 720KB supported(can be used 1.44MB floppy drive). Supported write, read and format operations. Schematic can be found in https://github.com/dhansel/ArduinoFDC search for the Arduino Mega.
+Connection will be at 2Mbs with hardware flow control via FT232RL
+!!!!   Attention mods to apply !!! 
+Added serial connection for FT232RL connected to UART3 and also connect pin cts of FT232RL  to Arduino mega pin A2.
+
+Config.ini has changed, you will find it in the distro.
+
+
+version pre-release
+
 ! please notice that only the x86 version has:
 - data folder
 - config.ini

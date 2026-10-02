@@ -14,8 +14,21 @@ Connection will be at 2Mbs with hardware flow control via FT232RL
 Added serial connection for FT232RL connected to UART3 and also connect pin cts of FT232RL  to Arduino mega pin A2.
 
 Config.ini has changed, you will find it in the distro.
+
+Example floppy disk and hdd can be found on previous release.
+
+Added the windows utility Realfloppy that allows to connect to arduino and make operations on the floppy disk from windows.
+- click on format to change from 360 to 720
+- click "start" to low level format a floppy and build dos fat12.
+- click on "copy"  to save the floppy disk content to "floppy.img". Size (360 or 720 ) depends on format type selected.
+- drag and drop a file on the screen and will be written to the floppy disk. Type of floppy will be calculated by the size of the .img selected. Supported 180kb, 360kb and 720kb.
+ 
+![screenshot](realfloppy.png)
+
 ![screenshot](usb_floppies.png)
+
 ![screenshot](hercules.png)
+
 version pre-release
 
 ! please notice that only the x86 version has:

@@ -1,5 +1,5 @@
 # IBM5150-emulator
-A time-accurate and cycle-accurate 5150 Emulator
+A time-exact and cycle-exact 5150 Emulator based on microcode
 
 version release 1.1
 
